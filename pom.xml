@@ -59,6 +59,12 @@
     <org.exoplatform.calendar.version>4.3.x-cal-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.calendar.version>
     <!-- Platform Project 3rd party Dependencies -->
     <org.exoplatform.doc.doc-style.version>4.3.x-SNAPSHOT</org.exoplatform.doc.doc-style.version>
+    <org.exoplatform.commons.version>4.3.x-commons-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.ecms.version>4.3.x-ecms-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.ecms.version>
+    <org.exoplatform.social.version>4.3.x-soc-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.social.version>
+    <org.exoplatform.forum.version>4.3.x-forum-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.forum.version>
+    <org.exoplatform.wiki.version>4.3.x-wiki-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.wiki.version>
+    <org.exoplatform.calendar.version>4.3.x-cal-wcm-template-pack-addon-SNAPSHOT</org.exoplatform.calendar.version>
     <!-- For surefire and failsafe to be compatible with jacoco -->
     <argLine>-Xmx1024m -XX:MaxPermSize=512m</argLine>
   </properties>
