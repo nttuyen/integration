@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.exoplatform.integration</groupId>
   <artifactId>integ</artifactId>
-  <version>4.3.x-SNAPSHOT</version>
+  <version>4.3.x-integ-multitenancy-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo Integration</name>
   <modules>
@@ -44,19 +44,19 @@
     <org.exoplatform.depmgt.version>11-SNAPSHOT</org.exoplatform.depmgt.version>
     <!-- JCR Project Dependencies -->
 
-      <org.exoplatform.kernel.version>2.5.1-GA</org.exoplatform.kernel.version>
+      <org.exoplatform.kernel.version>2.5.x-PLF-multitenancy-SNAPSHOT</org.exoplatform.kernel.version>
       <org.exoplatform.core.version>2.6.1-GA</org.exoplatform.core.version>
       <org.exoplatform.jcr.version>1.16.1-GA</org.exoplatform.jcr.version>
     <!-- GateIn Project Dependencies -->
     <org.gatein.shindig.version>2.0.2.Final-gatein-4</org.gatein.shindig.version>
-    <org.gatein.portal.version>4.3.x-PLF-SNAPSHOT</org.gatein.portal.version>
+    <org.gatein.portal.version>4.3.x-PLF-multitenancy-SNAPSHOT</org.gatein.portal.version>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.commons.version>4.3.x-SNAPSHOT</org.exoplatform.commons.version>
-    <org.exoplatform.ecms.version>4.3.x-SNAPSHOT</org.exoplatform.ecms.version>
-    <org.exoplatform.social.version>4.3.x-SNAPSHOT</org.exoplatform.social.version>
-    <org.exoplatform.forum.version>4.3.x-SNAPSHOT</org.exoplatform.forum.version>
-    <org.exoplatform.wiki.version>4.3.x-SNAPSHOT</org.exoplatform.wiki.version>
-    <org.exoplatform.calendar.version>4.3.x-SNAPSHOT</org.exoplatform.calendar.version>
+    <org.exoplatform.commons.version>4.3.x-commons-multitenancy-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.ecms.version>4.3.x-ecms-multitenancy-SNAPSHOT</org.exoplatform.ecms.version>
+    <org.exoplatform.social.version>4.3.x-soc-multitenancy-SNAPSHOT</org.exoplatform.social.version>
+    <org.exoplatform.forum.version>4.3.x-forum-multitenancy-SNAPSHOT</org.exoplatform.forum.version>
+    <org.exoplatform.wiki.version>4.3.x-wiki-multitenancy-SNAPSHOT</org.exoplatform.wiki.version>
+    <org.exoplatform.calendar.version>4.3.x-cal-multitenancy-SNAPSHOT</org.exoplatform.calendar.version>
     <org.exoplatform.doc.doc-style.version>4.3.x-SNAPSHOT</org.exoplatform.doc.doc-style.version>
 
     <!-- For surefire and failsafe to be compatible with jacoco -->
